@@ -9,6 +9,15 @@ For any commercial usage,Read License file!
 1. All the paths needed to be changed according to your requirements.
 2. Install all the required packages.
 3. Run Final.py program for usage of application.
+## Working Photos
+#### Detects Face(IF USER is Authorized it detects eye landamrks)
+<img src="LADS Images\LADS1.png"
+     alt="Markdown Monster icon"
+     style="float: left; margin-right: 5px;" />
+#### If USER is not Authorized It shows following options.
+<img src="LADS Images\LADS2.png"
+     alt="Markdown Monster icon"
+     style="float: left; margin-right: 5px;" />
 #### Tools used
 1. Python for programming
 2. OpenCV,Dlib,FaceRecognition,numpy
