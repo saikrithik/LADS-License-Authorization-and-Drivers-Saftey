@@ -1,5 +1,8 @@
 # LADS-License-Authorization-and-Driver's-Saftey
 This is the repository of my project LADS.
+Theme : Prevent Accidents due to unauthorized drivers and drowsy driving.
+Product : Mobility service providers can get the driver's history of qualitiness directly the data and improve their employees.
+
 For any commercial usage,Read License file!
 #### Download the Necessary Large files Here
 [Link for files](http://www.mediafire.com/folder/hsml89rboufxf/Files_for_LADS)
@@ -11,6 +14,7 @@ For any commercial usage,Read License file!
 3. Run Final.py program for usage of application.
 ## Working Photos
 #### Detects Face(IF USER is Authorized it detects eye landamrks)
+#### Data is Encoded at the User end. Only admin can see the history of the user.
 <img src="LADS Images\LADS1.png"
      alt="Markdown Monster icon"
      style="float: left; margin-right: 5px;" />
