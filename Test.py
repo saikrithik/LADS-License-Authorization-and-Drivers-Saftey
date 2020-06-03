@@ -38,7 +38,7 @@ def find_match(known_faces, names, face):
 with open ('test_encodes.dat', 'rb') as fp:
     known_face_encodings = pickle.load(fp)
 
-image_filenames = filter(lambda x: x.endswith('.jpg') or x.endswith('.png'), os.listdir('C:/Users/saikrithik/Desktop/Adrian/TS hackathon/DriverFaces/'))
+image_filenames = filter(lambda x: x.endswith('.jpg') or x.endswith('.png'), os.listdir('DriverFaces/'))
 image_filenames = sorted(image_filenames)
 known_face_names = [x[:-6] for x in image_filenames]
 
