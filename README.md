@@ -13,8 +13,8 @@ For any commercial usage,Read License file!
 2. Install all the required packages.
 3. Run Final.py program for usage of application.
 ## Working Photos
-#### Detects Face(IF USER is Authorized it detects eye landamrks)
-#### Data is Encoded at the User end. Only admin can see the history of the user.
+**Detects Face(IF USER is Authorized it detects eye landamrks)\
+Data is Encoded at the User end. Only admin can see the history of the user.**
 <img src="LADS Images\LADS1.png"
      alt="Markdown Monster icon"
      style="float: left; margin-right: 5px;" />
