@@ -33,7 +33,7 @@ code - pip install -r requirement.txt
 2. Install all the required packages.
 
 #### Usage Guide.
-**Single time usage programs**
+##### Single time usage programs**
 1. To store the driver's/ user's image locally use StoringImages.py(Each click will correspond to each stored photo).
 2. Train the image using TrainingImages.py(It trains all the photos that are stored in the database).\
 NOTE: (scipy version should be scipy==1.1.0)\
