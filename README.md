@@ -6,6 +6,7 @@ This is the repository of my project LADS.\
 For any commercial usage,Read License file!
 #### Download the Necessary Large files Here
 [Link for files](http://www.mediafire.com/folder/hsml89rboufxf/Files_for_LADS)
+--> Store the downloaded files in the same directory where the repository is cloned.
 
 #### INSTALLATION GUIDE:
 Use Anaconda for better experience:
