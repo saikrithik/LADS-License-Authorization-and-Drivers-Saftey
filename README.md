@@ -7,7 +7,7 @@ This is the repository of my project LADS.\
 For any commercial usage,Read License file!
 #### Download the Necessary Large files Here
 [Link for files](http://www.mediafire.com/folder/hsml89rboufxf/Files_for_LADS)
---> Store the downloaded files in the same directory where the repository is cloned.
+--> Store the downloaded files in the same directory where the repository is cloned.\
 [Link for files(2)](https://drive.google.com/file/d/1VBvTwakjq43EC5cZS4Qd2D51RS8js5dc/view)\
 --> This is Entire Project, Extract the Files for usage
 
