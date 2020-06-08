@@ -2,7 +2,7 @@
 #### Check Project details folder for the Detailed information about this project
 This is the repository of my project LADS.\
 **Theme** : Prevent Accidents due to unauthorized drivers and drowsy driving.\
-**Product** : Mobility service providers can get the driver's quality history  irectly from the data and improve their employees.
+**Product** : Mobility service providers can get the driver's quality history directly from the data and improve their employees.
 
 For any commercial usage,Read License file!
 #### Download the Necessary Large files Here
