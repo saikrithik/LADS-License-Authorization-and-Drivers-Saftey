@@ -7,6 +7,15 @@ For any commercial usage,Read License file!
 #### Download the Necessary Large files Here
 [Link for files](http://www.mediafire.com/folder/hsml89rboufxf/Files_for_LADS)
 
+#### INSTALLATION GUIDE:
+Use Anaconda for better experience:
+1. create a virtual environment (Recommended)
+code - conda create -n environment_name python=3.7 \
+2. activate virtual environment
+code - conda activate environment_name \
+2. Install requirements.txt
+code - pip install -r requirement.txt \
+
 #### Changes needed to be done before usage.
 (Environment Python-3.7)
 1. All the paths needed to be changed according to your requirements.
