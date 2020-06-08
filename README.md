@@ -1,4 +1,5 @@
 # LADS-License-Authorization-and-Driver's-Saftey
+#### Check Project details folder for the Detailed information about this project
 This is the repository of my project LADS.\
 **Theme** : Prevent Accidents due to unauthorized drivers and drowsy driving.\
 **Product** : Mobility service providers can get the driver's history of qualitiness directly from the data and improve their employees.
@@ -8,7 +9,7 @@ For any commercial usage,Read License file!
 [Link for files](http://www.mediafire.com/folder/hsml89rboufxf/Files_for_LADS)
 --> Store the downloaded files in the same directory where the repository is cloned.
 
-#### Check Project details folder for the Detailed information about this project
+
 
 
 ##### Recommended Configuration:
