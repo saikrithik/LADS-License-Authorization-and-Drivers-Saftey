@@ -9,9 +9,9 @@ For any commercial usage,Read License file!
 --> Store the downloaded files in the same directory where the repository is cloned.
 
 ##### Recommended Configuration:
- 8 GB Ram, 8-Core GPU , Storage-200MB
+ 4 GB Ram, 4-Core GPU , Storage-150MB
  ##### Minimum Configuration:
- 4 GB Ram,8-Core CPU, Storage - 200MB
+ 4 GB Ram,4-Core CPU, Storage - 150MB
 #### INSTALLATION GUIDE:
 Use Anaconda for better experience:
 1. create a virtual environment (Recommended)\
