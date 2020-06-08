@@ -8,6 +8,9 @@ For any commercial usage,Read License file!
 [Link for files](http://www.mediafire.com/folder/hsml89rboufxf/Files_for_LADS)
 --> Store the downloaded files in the same directory where the repository is cloned.
 
+#####Check Project details folder for the Detailed information about this project
+
+
 ##### Recommended Configuration:
  4 GB Ram, 4-Core GPU , Storage-150MB
  ##### Minimum Configuration:
