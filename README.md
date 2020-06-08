@@ -21,7 +21,14 @@ code - pip install -r requirement.txt
 (Environment Python-3.7)
 1. All the paths needed to be changed according to your requirements.
 2. Install all the required packages.
-3. Run Final.py program for usage of application.
+
+#### Usage Guide.
+**Single time usage programs**
+1. To store the driver's/ user's image locally use StoringImages.py(Each click will correspond to each stored photo).
+2. Train the image using TrainingImages.py(It trains all the photos that are stored in the database).
+**You can also skip the above step and directly run the appication and make the storing and training from the below application itself**
+3. Run Final.py program for usage of LADS application.
+
 ## Working Photos
 **Detects Face(IF USER is Authorized it detects eye landamrks)\
 Data is Encoded at the User end. Only admin can see the history of the user.**
