@@ -1,0 +1,45 @@
+admin usage file:
+Contains encryption and decryption codes for admin only
+
+Driverfaces:
+Contains stored images 
+
+Haar:
+Contains all required haar cascoded files for the program
+
+LADS:
+Contains photos explaining some parts of LADS
+
+Adminaccess.b64:
+Encrypted file for admin to access the data from the cloud.
+
+admindata:
+Python file which provides data of car no. and date for admin in encrypted form
+
+adminlicence and adminsleepy:
+Python files which will be raised during unauthorized driving and sleepiness detection and send data to database in encypted form for admin
+
+alarm,alarm2,alarm3:
+Three different alarm sound files provided for sample which will be raised during sleepiness detection
+
+decrypteddf:
+python file which helps decrypting the Licensefinal.b64
+
+Final:
+Pyhton code which should be run the admin at the start and which helps to raise all other python files
+
+LADS ppt:
+PPT explains LADS in brief
+
+QR_request:
+Python file which create random  and unique QR code each time when we run it
+
+Sleepyness_detection:
+Python file which contains code for sleepiness detection
+
+StoringImages:
+Python file which stores image of the person who is detected
+
+Test,TrainingImages:
+Python files which contains codes test to test and train images the which are stored
+ 
