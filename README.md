@@ -8,6 +8,10 @@ For any commercial usage,Read License file!
 [Link for files](http://www.mediafire.com/folder/hsml89rboufxf/Files_for_LADS)
 --> Store the downloaded files in the same directory where the repository is cloned.
 
+##### Recommended Configuration:
+ 8 GB Ram, 8-Core GPU , Storage-200MB
+ ##### Minimum Configuration:
+ 4 GB Ram,8-Core CPU, Storage - 200MB
 #### INSTALLATION GUIDE:
 Use Anaconda for better experience:
 1. create a virtual environment (Recommended)\
