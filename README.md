@@ -19,8 +19,6 @@ For any commercial usage,Read License file!
  ##### Minimum Configuration:
  4 GB Ram,4-Core CPU, Storage - 150MB
 #### INSTALLATION GUIDE:
-```cmd
-```
 Use Anaconda for better experience:
 1. create a virtual environment (Recommended)
 ```cmd
