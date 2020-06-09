@@ -19,13 +19,22 @@ For any commercial usage,Read License file!
  ##### Minimum Configuration:
  4 GB Ram,4-Core CPU, Storage - 150MB
 #### INSTALLATION GUIDE:
+```cmd
+```
 Use Anaconda for better experience:
-1. create a virtual environment (Recommended)\
-code - conda create -n environment_name python=3.7
-2. activate virtual environment\
+1. create a virtual environment (Recommended)
+```cmd
+conda create -n environment_name python=3.7
+```
+2. activate virtual environment
+```cmd
 code - conda activate environment_name
-2. Install requirements.txt\
+```
+2. Install requirements.txt
+```cmd
 code - pip install -r requirement.txt
+```
+
 
 #### Changes needed to be done before usage.
 (Environment Python-3.7)
