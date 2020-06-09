@@ -26,11 +26,11 @@ conda create -n environment_name python=3.7
 ```
 2. activate virtual environment
 ```cmd
-code - conda activate environment_name
+conda activate environment_name
 ```
 2. Install requirements.txt
 ```cmd
-code - pip install -r requirement.txt
+pip install -r requirement.txt
 ```
 
 
