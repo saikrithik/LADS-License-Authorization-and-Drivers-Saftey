@@ -57,6 +57,8 @@ Data is Encoded at the User end. Only admin can see the history of the user.**
 <img src="LADS Images\LADS2.png"
      alt="Markdown Monster icon"
      style="float: left; margin-right: 5px;" />
+## Credits
+Thanks to [Adrian Rosebrock](https://www.pyimagesearch.com/author/adrian/) , [sentedex](https://www.youtube.com/channel/UCfzlCWGWYyIQ0aLC5w48gBQ) and their amazing tutorials that helped me build this project.
 #### Tools used
 1. Python for programming
 2. OpenCV,Dlib,FaceRecognition,numpy
