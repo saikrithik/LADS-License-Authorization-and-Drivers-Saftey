@@ -19,7 +19,12 @@ For any commercial usage,Read License file!
  ##### Minimum Configuration:
  4 GB Ram,4-Core CPU, Storage - 150MB
 #### INSTALLATION GUIDE:
+
 Use Anaconda for better experience:
+```cmd
+git clone https://github.com/saikrithik/LADS-License-Authorization-and-Drivers-Saftey.git
+cd LADS-License-Authorization-and-Drivers-Saftey
+```
 1. create a virtual environment (Recommended)
 ```cmd
 conda create -n environment_name python=3.7
@@ -30,6 +35,8 @@ conda activate environment_name
 ```
 2. Install requirements.txt
 ```cmd
+pip install cmake
+conda install -c conda-forge dlib
 pip install -r requirements.txt
 ```
 
