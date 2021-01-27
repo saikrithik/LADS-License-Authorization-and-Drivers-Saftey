@@ -63,7 +63,7 @@ n = text_file.write(base64_encoded)
 text_file.close()
 
 Count = 0
-cap = cv2.VideoCapture(0) 
+cap = cv2.VideoCapture(0,cv2.CAP_DSHOW) 
 path="DriverFaces/"
 #os.mkdir(path)
 

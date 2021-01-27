@@ -74,7 +74,7 @@ predictor = dlib.shape_predictor('shape_predictor_68_face_landmarks.dat')
 
 # start the video stream thread
 print("[INFO] starting video stream thread...")
-vs = VideoStream(src=args["webcam"]).start()
+cap =  cv2.VideoCapture(0,cv2.CAP_DSHOW) 
 #time.sleep(1.0)
 i=0
 loop=[]
@@ -84,7 +84,7 @@ while True:
         # grab the frame from the threaded video file stream, resize
         # it, and convert it to grayscale
         # channels)
-        frame = vs.read()
+        _,frame = cap.read()
         frame = imutils.resize(frame, width=450)
         gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
         #faces = face_cascade.detectMultiScale(gray, 1.3, 5)
@@ -98,7 +98,7 @@ while True:
                 for j in range(i-100,i):
                         if len(loop[j]) == 0:
                                 person=False
-                                vs.stop()
+                                cap.release()
                                 cv2.destroyAllWindows()
                                 os.system('python Final.py')
                                 
@@ -177,7 +177,7 @@ while True:
                 break
 
 # do a bit of cleanup
-vs.stop()
+cap.release()
 cv2.destroyAllWindows()
 
 

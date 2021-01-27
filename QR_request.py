@@ -61,7 +61,7 @@ def SendMail(ImgFileName):
     s.ehlo()
     s.starttls()
     s.ehlo()
-    s.login(email_user, 'jeebu123')
+    s.login(email_user, 'jeebu1234')
     s.sendmail(email_user,email_send, msg.as_string())
     s.quit()
 SendMail('myQR.png')

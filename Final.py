@@ -68,8 +68,8 @@ predictor = dlib.shape_predictor('shape_predictor_68_face_landmarks.dat')
 (rStart, rEnd) = face_utils.FACIAL_LANDMARKS_IDXS["right_eye"]
 
 # start the video stream thread
-print("[INFO] starting video stream thread...")
-vs = VideoStream(src=args["webcam"]).start()
+print("[INFO] star,ting video stream thread...")
+cap =  cv2.VideoCapture(0,cv2.CAP_DSHOW) 
 #time.sleep(1.0)
 
 # loop over frames from the video stream
@@ -77,7 +77,7 @@ while True:
 	# grab the frame from the threaded video file stream, resize
 	# it, and convert it to grayscale
 	# channels)
-	frame = vs.read()
+	ret, frame = cap.read()
 	frame = imutils.resize(frame, width=450)
 	gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
 
@@ -157,6 +157,6 @@ while True:
 
 # do a bit of cleanup
 cv2.destroyAllWindows()
-vs.stop()
+cap.release()
 
 # python Final.py --shape-predictor shape_predictor_68_face_landmarks.dat --alarm alarm2.mp3

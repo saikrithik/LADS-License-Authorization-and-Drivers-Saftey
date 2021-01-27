@@ -17,9 +17,8 @@ scale_factor=0.5
 #	help="index of webcam on system")
 #args = vars(ap.parse_args())
 
-#video_capture = VideoStream(src=args["webcam"]).start()
-video_capture = cv2.VideoCapture(0)#0
-video_capture.set(cv2.CAP_PROP_FPS, 24)
+#video_capture = VideoStream(0).start()
+cap = cv2.VideoCapture(0,cv2.CAP_DSHOW)
 scale_factor=0.5
 
 def find_match(known_faces, names, face):
@@ -51,8 +50,7 @@ i=0
 
 process_this_frame = True       
 while len(decision)<5:
-    #frame = vs.read()
-    ret,frame = video_capture.read()
+    _,frame = cap.read()
     small_frame = cv2.resize(frame, (0,0), fx=0.25, fy=0.25)#, fx=0.25, fy=0.25
     rgb_small_frame = small_frame[:, :, ::-1]
     i=i+1
@@ -81,14 +79,14 @@ while len(decision)<5:
     cv2.imshow('Video', frame)
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
-video_capture.release()
+cap.release()
 cv2.destroyAllWindows()
 
 i=0
 authorize = True
 for elem in decision:
     if decision.count(elem) >=3 and decision[i]== 'Not Found':
-        video_capture.release()
+        cap.release()
         cv2.destroyAllWindows()
         authorize= False
         print("The person have no regestered license")
