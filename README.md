@@ -30,7 +30,7 @@ conda activate environment_name
 ```
 2. Install requirements.txt
 ```cmd
-pip install -r requirement.txt
+pip install -r requirements.txt
 ```
 
 
