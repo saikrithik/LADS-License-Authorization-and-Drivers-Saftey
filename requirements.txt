@@ -4,11 +4,9 @@ cmake==3.18.4.post1
 colorama==0.4.4
 face-recognition==1.3.0
 face-recognition-models==0.3.0
-dlib @ file:///D:/bld/dlib_1607165093336/work
 et-xmlfile==1.0.1
 imutils==0.5.4
 jdcal==1.4.1
-numpy @ file:///D:/bld/numpy_1610324712085/work
 opencv-contrib-python==4.5.1.48
 openpyxl==3.0.6
 pandas==1.2.1
