@@ -1,9 +1,8 @@
 import dlib
 import numpy as np
 import os
-import scipy.misc
 import pickle
-
+from matplotlib.pyplot import imread
 
 face_detector = dlib.get_frontal_face_detector()
 shape_predictor = dlib.shape_predictor('shape_predictor_68_face_landmarks.dat')
@@ -11,7 +10,7 @@ face_recognition_model=dlib.face_recognition_model_v1('Face_Recognition_trainedD
 TOLERANCE = 0.5
 
 def get_face_encodings(path_to_image):
-    image = scipy.misc.imread(path_to_image)
+    image = imread(path_to_image)
     detected_faces = face_detector(image, 1)
     shapes_faces = [shape_predictor(image, face) for face in detected_faces]
     return [np.array(face_recognition_model.compute_face_descriptor(image, face_pose, 1)) for face_pose in shapes_faces]
