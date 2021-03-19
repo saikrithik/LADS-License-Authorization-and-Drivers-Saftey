@@ -10,7 +10,7 @@ jdcal==1.4.1
 opencv-contrib-python==4.5.1.48
 openpyxl==3.0.6
 pandas==1.2.1
-Pillow==8.1.0
+Pillow==8.1.1
 playsound==1.2.2
 python-dateutil==2.8.1
 pytz==2020.5
