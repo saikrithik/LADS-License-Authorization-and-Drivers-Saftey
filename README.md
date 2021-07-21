@@ -29,6 +29,11 @@ cd LADS-License-Authorization-and-Drivers-Saftey
 ```cmd
 conda create -n environment_name python=3.7
 ```
+(Note)
+Add environment to jupyter
+```cmd
+python -m ipykernel install --user --name=firstEnv
+```
 2. activate virtual environment
 ```cmd
 conda activate environment_name
